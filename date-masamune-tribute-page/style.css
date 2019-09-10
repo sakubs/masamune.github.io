@@ -1,0 +1,67 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  background: #D8C3A5;
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  color: #5d5c61;
+  display: grid;
+  font-family: Arial, sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* The main content background. */
+main {
+  background: #D8C3A5;
+  border-radius: 30px;
+}
+
+div {
+  align-items: center;
+  background: #eae7dc;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+}
+
+#image {
+  /* Original image is 1252px X 952px. */
+  border-radius: 30px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 636px;
+}
+
+/* Container for the main image */
+#img-div {
+  align-items: center;
+  background: #eae7dc;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #e98074;
+}
+
+a:visited {
+  color: #e85a4f;
+}
+
+li:hover {
+  color: black;
+}
+
+ul {
+  text-align: left;
+}
