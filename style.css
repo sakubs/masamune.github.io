@@ -2,7 +2,8 @@ html {
   /* Setting a base font size of 10px give us easier rem calculations
      Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
    */
-  background: #D8C3A5;
+  background: rgb(203,174,238);
+  background: radial-gradient(circle, rgba(203,174,238,1) 0%, rgba(49,2,85,1) 100%); 
   font-size: 10px;
 }
 
@@ -53,15 +54,15 @@ div {
 }
 
 a {
-  color: #e98074;
+  color: #42035f;
 }
 
 a:visited {
-  color: #e85a4f;
+  color: #42035f;
 }
 
-li:hover {
-  color: black;
+a:hover {
+  color: #9c03e2;
 }
 
 ul {
